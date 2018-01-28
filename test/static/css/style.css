@@ -1,0 +1,45 @@
+Colours
+#5d5d5d - Darker Grey
+#9F9F9F - Midle Grey
+#f2f2f2 - Light Grey
+#f1f1f1 - BG Grey
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index:-100;
+}
+
+#contentCentre {
+    width: 1200px;
+    height: 10000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: '#f1f1f1',
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#calcCentre {
+    width: 600px;
+    height: 800px;
+    background-color: '#d5d5d';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#fullWidth {
+    width: 1180px;
+    margin: auto;
+}
+
